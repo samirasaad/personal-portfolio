@@ -226,6 +226,7 @@ export const PROJECTS: IProject[] = [
             '/projects/images/chatboard2.png',
             '/projects/images/chatboard3.png',
             '/projects/images/chatboard4.png',
+            '/projects/images/chatboard5.png',
         ],
     },
     {

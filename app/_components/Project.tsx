@@ -171,7 +171,6 @@ const Project = ({ index, project, selectedProject, onMouseEnter }: Props) => {
                     </div>
                     <div className="mt-2 flex flex-wrap gap-3 text-muted-foreground text-xs">
                         {project.techStack
-                            .slice(0, 3)
                             .map((tech, idx, stackArr) => (
                                 <div
                                     className="gap-3 flex items-center"
