@@ -26,9 +26,9 @@ const robotoFlex = Roboto_Flex({
 });
 
 export const metadata: Metadata = {
-    title: 'Portfolio - Muhmmed Medhat',
+    title: 'Portfolio - Samira Saad',
     description:
-        'Senior Frontend Engineer | React, Next.js, TypeScript | 4+ Years Experience',
+        'Senior Frontend Engineer | React, Next.js, TypeScript | +6 Years Experience',
 };
 
 export default function RootLayout({

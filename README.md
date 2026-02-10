@@ -1,4 +1,4 @@
-# 🚀 Muhmmed Medhat - Portfolio Website
+# 🚀 Samira Saad - Portfolio Website
 
 A modern, responsive portfolio website built with Next.js 16, React 19, TypeScript, and Tailwind CSS. Features smooth animations with GSAP and Framer Motion, smooth scrolling with Lenis, and a clean, professional design.
 
@@ -30,11 +30,12 @@ If you'd like to contribute or suggest improvements, feel free to open an issue 
 
 ## 👤 Author
 
-**Muhmmed Medhat** - Senior Frontend Developer
+**Samira Saad** - Senior Frontend Developer
 
--   GitHub: [@Muhmmedmedhat0](https://github.com/Muhmmedmedhat0)
--   LinkedIn: [Muhmmed Medhat](https://www.linkedin.com/in/muhmmed-medhat-941754172/)
--   Email: muhmmedmedhat0@gmail.com
+-   GitHub: [@samirasaad](https://github.com/samirasaad)
+-   LinkedIn: [Samira Saad](https://www.linkedin.com/in/samira-saad-13241b167)
+-   Email: samirasaad577@gmail.com
+-   Phone: 01287023737
 
 ## 📄 License
 

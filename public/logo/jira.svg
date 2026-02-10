@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Jira">
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="#020617" />
+  <path d="M20 32l12-12 12 12-12 12-12-12z" fill="#1D4ED8" />
+  <path d="M32 20l6 6-6 6-6-6 6-6z" fill="#60A5FA" />
+</svg>
+

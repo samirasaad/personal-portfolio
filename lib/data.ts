@@ -1,290 +1,296 @@
 import { IProject } from '@/types';
 
 export const GENERAL_INFO = {
-    name: 'Muhmmad Medhat',
-    email: 'muhmmedmedhat0@gmail.com',
-    phone: '+201098014450',
-    location: '6th of October City, Cairo, Egypt',
+    name: 'Samira Saad Ragheb',
+    email: 'samirasaad577@gmail.com',
+    phone: '01287023737',
+    location: 'Alexandria, Egypt',
 
     emailSubject: "Let's collaborate on a project",
-    emailBody: 'Hi Muhmmed, I am reaching out to you because...',
+    emailBody: 'Hi Samira, I am reaching out to you because...',
 
-    linkedinProfile: 'https://www.linkedin.com/in/muhmmed-medhat-941754172/',
-    githubProfile: 'https://github.com/Muhmmedmedhat0',
+    linkedinProfile: 'https://www.linkedin.com/in/samira-saad-13241b167',
+    githubProfile: 'https://github.com/samirasaad',
 };
 
 export const SOCIAL_LINKS = [
-    { name: 'github', url: 'https://github.com/Muhmmedmedhat0' },
+    { name: 'github', url: 'https://github.com/samirasaad' },
     {
         name: 'linkedin',
-        url: 'https://www.linkedin.com/in/muhmmed-medhat-941754172/',
+        url: 'https://www.linkedin.com/in/samira-saad-13241b167',
     },
 ];
 
 export const MY_STACK = {
     frontend: [
         {
-            name: 'JavaScript',
-            icon: '/logo/js.png',
+            name: 'React.js',
+            icon: '/logo/react.svg',
+        },
+        {
+            name: 'Next.js (App Router)',
+            icon: '/logo/next.svg',
         },
         {
             name: 'TypeScript',
-            icon: '/logo/ts.png',
+            icon: '/logo/ts.svg',
         },
         {
-            name: 'React',
-            icon: '/logo/react.png',
+            name: 'JavaScript (ES6+)',
+            icon: '/logo/js.svg',
         },
         {
-            name: 'Next.js',
-            icon: '/logo/next.png',
+            name: 'Server Components',
+            icon: '/logo/server.svg',
         },
         {
-            name: 'Redux',
-            icon: '/logo/redux.png',
+            name: 'Server Actions',
+            icon: '/logo/server.svg',
+        },
+        {
+            name: 'SSR',
+            icon: '/logo/server.svg',
+        },
+        {
+            name: 'SSG',
+            icon: '/logo/server.svg',
+        },
+        {
+            name: 'ISR',
+            icon: '/logo/server.svg',
+        },
+        {
+            name: 'Rendering Optimization',
+            icon: '/logo/performance.svg',
+        },
+        {
+            name: 'Modular Architecture',
+            icon: '/logo/architecture.svg',
         },
         {
             name: 'Tailwind CSS',
-            icon: '/logo/tailwind.png',
+            icon: '/logo/tailwind.svg',
+        },
+        {
+            name: 'SCSS',
+            icon: '/logo/scss.svg',
         },
         {
             name: 'Material UI',
             icon: '/logo/mui.svg',
         },
         {
-            name: 'Framer Motion',
-            icon: '/logo/framer-motion.png',
+            name: 'Bootstrap',
+            icon: '/logo/bootstrap.svg',
         },
+        {
+            name: 'Code Splitting',
+            icon: '/logo/performance.svg',
+        },
+        {
+            name: 'Memoization',
+            icon: '/logo/performance.svg',
+        },
+        {
+            name: 'Lazy Loading',
+            icon: '/logo/performance.svg',
+        },
+        {
+            name: 'API Caching',
+            icon: '/logo/performance.svg',
+        },
+        {
+            name: 'Optimized Rendering',
+            icon: '/logo/performance.svg',
+        },
+        {
+            name: 'REST APIs',
+            icon: '/logo/rest-api.svg',
+        },
+       
     ],
-    backend: [
+   
+    stateManagement: [
         {
-            name: 'Node.js',
-            icon: '/logo/node.png',
+            name: 'Redux Toolkit',
+            icon: '/logo/redux.svg',
         },
         {
-            name: 'Express.js',
-            icon: '/logo/express.png',
+            name: 'Redux Saga',
+            icon: '/logo/redux.svg',
         },
-    ],
-    database: [
         {
-            name: 'MongoDB',
-            icon: '/logo/mongodb.svg',
+            name: 'Zustand',
+            icon: '/logo/zustand.svg',
+        },
+        {
+            name: 'RTK',
+            icon: '/logo/redux.svg',
         },
     ],
     tools: [
+       
+        {
+            name: 'Firebase',
+            icon: '/logo/firebase.svg',
+        },
+        {
+            name: 'Firestore',
+            icon: '/logo/firebase.svg',
+        },
+        {
+            name: 'Web Push Notifications',
+            icon: '/logo/notifications.svg',
+        },
+        {
+            name: 'Zoom SDK',
+            icon: '/logo/zoom.svg',
+        },
+        {
+            name: 'Socket.io',
+            icon: '/logo/socketio.svg',
+        },
+       
         {
             name: 'Git',
-            icon: '/logo/git.png',
+            icon: '/logo/git.svg',
         },
         {
-            name: 'SWR',
-            icon: '/logo/swr.svg',
+            name: 'GitLab',
+            icon: '/logo/gitlab.svg',
         },
-
         {
-            name: 'Webpack',
-            icon: '/logo/webpack.svg',
+            name: 'Bitbucket',
+            icon: '/logo/bitbucket.svg',
+        },
+        {
+            name: 'Jira',
+            icon: '/logo/jira.svg',
+        },
+        {
+            name: 'ClickUp',
+            icon: '/logo/clickup.svg',
+        },
+        {
+            name: 'Figma',
+            icon: '/logo/figma.svg',
+        },
+        {
+            name: 'Cursor',
+            icon: '/logo/cursor.svg',
+        },
+        {
+            name: 'Copilot',
+            icon: '/logo/copilot.svg',
         },
     ],
 };
 
 export const PROJECTS: IProject[] = [
     {
-        title: 'Electro EV',
-        slug: 'electro-ev',
-        // liveUrl: 'https://electroev.co.uk/',
+        title: 'PhotoStore',
+        slug: 'photo-store',
+        liveUrl: 'https://photo-store-qckf.vercel.app/',
         year: 2025,
-        description: `
-      A complete agency portfolio platform built for Electro EV to showcase their services, blog content, and product offerings. <br/> <br/>
-      
-      Key Features:<br/>
-      <ul>
-        <li>🛠️ Service Display System: Interactive service showcase with synchronized sliders</li>
-        <li>✍️ Blog Management: SEO-friendly blog with categorization and search</li>
-        <li>🛒 Product Catalog: Organized product display with filtering capabilities</li>
-        <li>📱 Fully Responsive: Optimized for all device sizes</li>
-        <li>⚡ Fast Performance: Optimized Next.js frontend with ISR (Incremental Static Regeneration)</li>
-      </ul><br/>
-      
-      Technical Highlights:
-      <ul>
-        <li>Implemented complex slider synchronization logic using Swiper.js</li>
-        <li>Customized Payload CMS admin panel for intuitive content management</li>
-        <li>Developed reusable UI components with shadcn for design consistency</li>
-        <li>Configured efficient data fetching strategies in Next.js</li>
-      </ul>
-      `,
-        role: `
-      Full-Stack Developer <br/>
-      Owned the entire development lifecycle:
-      <ul>
-        <li>✅ Backend: Configured Payload CMS with custom collections for services, blogs, and products</li>
-        <li>🎨 Frontend: Built all UI components using Tailwind CSS and shadcn</li>
-        <li>🔄 State Management: Implemented client-side data fetching and caching</li>
-        <li>🖥️ CMS Customization: Created admin interfaces for content editors</li>
-        <li>🚀 Deployment: Set up CI/CD pipeline for Vercel hosting</li>
-        <li>🧩 Third-Party Integration: Added Swiper.js for interactive sliders</li>
-      </ul>
-      `,
-        techStack: [
-            'Next.js',
-            'Payload CMS',
-            'Tailwind CSS',
-            'shadcn',
-            'Swiper.js',
-            'React Hook Form',
-            'Vercel',
-        ],
-        thumbnail: '/projects/thumbnail/mti-electronics.webp',
-        longThumbnail: '/projects/long/mti-electronics.webp',
-        images: [
-            '/projects/images/mti-electronics-1.webp',
-            '/projects/images/mti-electronics-2.webp',
-        ],
-    },
-    {
-        title: 'Epikcart',
-        slug: 'epikcart',
-        techStack: [
-            'React',
-            'Redux',
-            'React i18n',
-            'Tailwind CSS',
-            'Framer Motion',
-            'debouncing',
-            'Api Integration',
-        ],
-        thumbnail: '/projects/thumbnail/epikcart.jpg',
-        longThumbnail: '/projects/long/epikcart.jpg',
-        images: [
-            '/projects/images/epikcart-1.png',
-            '/projects/images/epikcart-2.png',
-            '/projects/images/epikcart-3.png',
-            '/projects/images/epikcart-4.png',
-            '/projects/images/epikcart-5.png',
-        ],
-        // liveUrl: 'https://demo.epikcart.siphertech.com/',
-        year: 2023,
-        description: `Epikcart is a feature-rich, scalable e-commerce platform tailored for large businesses. It features dynamic product filtering, multi-language support with RTL, advanced inventory management, order tracking, and refund systems, offering a comprehensive solution for multi-vendor operations.`,
-        role: `As the frontend developer in a team of five, I: <br/>
-        - Built the frontend from scratch using React, Redux, RTK Query, and Tailwind CSS.<br/>
-        - Developed dynamic filtering logic for the product search page with admin-configurable parameters.<br/>
-        - Integrated multi-language support with React i18n, including RTL handling.<br/>
-        - Delivered a responsive, user-friendly interface in collaboration with the UI/UX designer.`,
-    },
-    {
-        title: 'Resume Roaster',
-        slug: 'resume-roaster',
-        techStack: [
-            'GPT-4',
-            'Next.js',
-            'Postgressql',
-            'Prisma',
-            'Tailwind CSS',
-        ],
-        thumbnail: '/projects/thumbnail/resume-roaster.jpg',
-        longThumbnail: '/projects/long/resume-roaster.jpg',
-        images: [
-            '/projects/images/resume-roaster-1.png',
-            // '/projects/images/resume-roaster-2.png',
-            '/projects/images/resume-roaster-3.png',
-        ],
-        year: 2023,
         description:
-            'Resume Roaster is a web application designed to provide tailored resume feedback and professional writing services. Built with Next.js, PostgreSQL, Prisma, and Tailwind CSS, it integrates GPT-4 for AI-powered recommendations. The platform also includes peer-to-peer reviews with a points-based system, fostering a collaborative and engaging experience. Targeting freshers, experienced professionals, and programmers, it helps optimize resumes for job-specific success.',
-        role: `As the sole developer and business owner, I:<br/>
-        - Designed and developed the platform end-to-end using Next.js, PostgreSQL, Prisma, and Tailwind CSS.<br/>
-        - Integrated GPT-4 for AI-driven feedback and insights.<br/>
-        - Implemented complex SQL queries, including one to identify the top two resumes based on user points.`,
+            'PhotoStore is a modern photo gallery and showcase platform where users can explore curated images in a clean, minimal UI. The app focuses on smooth browsing, responsive layouts, and an elegant viewing experience.',
+        role: `As the frontend engineer, I:<br/>
+        - Designed a clean, photography-first layout with a dark, premium visual style.<br/>
+        - Implemented responsive grid layouts for images with smooth transitions.<br/>
+        - Focused on performance and accessibility to keep navigation fast and intuitive.`,
+        techStack: [ 'React', 'Javascript', 'Bootstrap','CSS','HTML','Redux'],
+        thumbnail: '/projects/thumbnail/photostore.png',
+        longThumbnail: '/projects/long/photostore.png',
+        images: [
+            '/projects/images/photostore.png',
+            '/projects/images/photostore2.png',
+            '/projects/images/photostore3.png',
+        ],
     },
     {
-        title: 'Real Estate',
-        slug: 'property-pro',
-        techStack: [
-            'React.js',
-            'Redux',
-            'Tailwind CSS',
-            'React i18n',
-            'Framer Motion',
-        ],
-        thumbnail: '/projects/thumbnail/property-pro.jpg',
-        longThumbnail: '/projects/long/property-pro.jpg',
-        images: [
-            '/projects/images/property-pro-1.png',
-            '/projects/images/property-pro-2.png',
-            '/projects/images/property-pro-3.png',
-        ],
-        year: 2023,
+        title: 'ChatBoard',
+        slug: 'chatboard',
+        liveUrl: 'https://chatting-app-gamma.vercel.app/Login',
+        year: 2025,
         description:
-            'PropertyPro is a real estate management platform offering users a seamless experience to explore, manage, and view property listings. The application emphasizes accessibility and responsive design, ensuring a smooth interface across devices.',
-        role: `As the frontend developer, I:<br/>
-        - Built the frontend using React, Redux, RTK Query, Framer Motion, and Tailwind CSS.<br/>
-        - Integrated dynamic state management for efficient handling of property data.<br/>
-        - Implemented multi-language support with React i18n to cater to diverse audiences.<br/>
-        - Enhanced user interaction with animations and transitions using Framer Motion.`,
+            'ChatBoard is a real-time chat application that supports modern messaging patterns, including instant updates, multi-room conversations, and a clean, focused UI for day-to-day communication.',
+        role: `As the sole frontend developer, I:<br/>
+        - Built the chat interface with real-time updates and smooth auto-scroll behavior.<br/>
+        - Structured the UI for multiple conversation flows with a focus on clarity and usability.<br/>
+        - Ensured responsiveness and a consistent experience across desktop and mobile.`,
+        techStack: [ 'React', 'Javascript', 'Bootstrap','CSS','HTML','Redux ,Redux Saga','Firebase'],
+        thumbnail: '/projects/thumbnail/chatboard3.png',
+        longThumbnail: '/projects/long/chatboard2.png',
+        images: [
+            '/projects/images/chatboard1.png',
+            '/projects/images/chatboard2.png',
+            '/projects/images/chatboard3.png',
+            '/projects/images/chatboard4.png',
+        ],
     },
     {
-        title: 'Consulting Finance',
-        slug: 'crenotive',
-        techStack: ['HTML', 'CSS & SCSS', 'Javascript', 'Bootstrap'],
-        thumbnail: '/projects/thumbnail/consulting-finance.jpg',
-        longThumbnail: '/projects/long/consulting-finance.jpg',
-        images: [
-            '/projects/images/consulting-finance-1.png',
-            '/projects/images/consulting-finance-2.png',
-            '/projects/images/consulting-finance-3.png',
-        ],
-
-        year: 2023,
+        title: 'Personal Tech Blog',
+        slug: 'samira-saad-blog',
+        liveUrl: 'https://blog-samirasaad.vercel.app/',
+        year: 2025,
         description:
-            'I developed Crenotive, a portfolio website using Html, SASS, and jQuery to showcase services and expertise. The design focuses on responsive user experience and effective presentation of professional achievements.',
-        role: ``,
+            'A personal blog where I share articles about frontend engineering, React, Next.js, and real-world lessons from enterprise projects and teaching experiences.',
+        role: `As the designer and developer, I:<br/>
+        - Implemented a content-focused blog layout with strong typography and spacing.<br/>
+        - Built reusable components for article lists, headers, and highlighted quotes.<br/>
+        - Optimized for readability and performance across devices.`,
+        techStack: ['Next','React', 'Javascript', 'Boottsrap','CSS','HTML','Firebase'],
+        thumbnail: '/projects/thumbnail/blog1.png',
+        longThumbnail: '/projects/long/blog1.png',
+        images: [
+            '/projects/images/blog1.png',
+            '/projects/images/blog2.png',
+            '/projects/images/blog3.png',
+        ],
     },
-    // {
-    //     title: 'devLinks',
-    //     slug: 'devLinks',
-    //     techStack: ['Next.js', 'Formik', 'Drag & Drop', 'Tailwind CSS'],
-    //     thumbnail: '/projects/thumbnail/devLinks.jpg',
-    //     longThumbnail: '/projects/long/devLinks.jpg',
-    //     images: [
-    //         '/projects/images/devLinks-1.png',
-    //         '/projects/images/devLinks-2.png',
-    //         '/projects/images/devLinks-3.png',
-    //     ],
-
-    //     year: 2023,
-    //     description: `One of the most challenging projects in Frontend Mentor.<br/><br/>
-
-    //         I developed a LinkSharing App as part of the Frontend Mentor challenge, utilizing React, Redux, and Tailwind CSS to create a responsive and feature-rich platform. The app allows users to share, save, and explore links, with a focus on intuitive design and smooth navigation. Advanced state management ensures efficient data handling for user interactions.`,
-    //     role: ``,
-    // },
 ];
 
 export const MY_EXPERIENCE = [
     {
-        title: 'Senior Frontend Developer',
-        company: 'Zinad IT',
-        duration: 'Jul 2024 - Present',
+        title: 'Front-End Developer',
+        company: 'Viggo Software',
+        duration: 'Apr 2024 – Present',
+        description:
+            'Designing and building scalable admin dashboards and healthcare scheduling systems for veterinary and home-nursing workflows, with a strong focus on performance and UX.',
     },
     {
-        title: 'Frontend Developer',
-        company: 'Zewail City of Science and Technology',
-        duration: 'Oct 2022 - Jun 2024',
+        title: 'Frontend Instructor',
+        company: 'Learn It Academy',
+        duration: 'Feb 2024 – Present',
+        description:
+            'Teaching React, TypeScript, and modern UI fundamentals, mentoring students through real-world projects, and promoting clean, scalable frontend architecture.',
     },
     {
-        title: 'MEAN/MERN Stack Developer',
-        company: 'ITI (Intensive Code Camp)',
-        duration: 'Apr 2022 - Aug 2022',
+        title: 'Seasonal Instructor',
+        company: 'ITI (Information Technology Institute)',
+        duration: 'May 2023 – Present',
+        description:
+            'Delivering React, HTML, CSS, and Bootstrap courses for multiple intakes, guiding trainees to build production-like interfaces and understand frontend best practices.',
     },
     {
-        title: 'Frontend Developer',
-        company: 'Appssquare',
-        duration: 'Jan 2022 - Jun 2022',
+        title: 'Front-End Developer',
+        company: 'Ibtikar Technologies [Squadio]',
+        duration: 'Jan 2020 – May 2024',
+        description:
+            'Led frontend architecture decisions across enterprise projects, built reusable component libraries, and mentored junior developers to elevate code quality.',
     },
     {
         title: 'UI Developer',
-        company: 'EraMint',
-        duration: 'Jul 2020 - Oct 2020',
+        company: 'Andalusia Group',
+        duration: 'Feb 2019 – Jan 2020',
+        description:
+            'Built complex healthcare UI modules, including dental treatment simulations and clinical workflows, collaborating closely with medical teams to match real-world needs.',
+    },
+    {
+        title: 'UI Developer',
+        company: 'IEREK',
+        duration: 'Nov 2018 – Feb 2019',
+        description:
+            'Maintained and enhanced academic submission and review portals, improving visual consistency, usability, and the overall researcher experience.',
     },
 ];

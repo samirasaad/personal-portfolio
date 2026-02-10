@@ -4,33 +4,41 @@
 
 @layer base {
     :root {
-        --background: 0 0% 13%;
-        --background-light: 0 0% 19%;
-        --foreground: 0 0% 87%;
+        /* Deep plum & gold palette – elegant, feminine, senior */
+        --background: 222 84% 4%; /* near-black navy (#020617) */
+        --background-light: 222 47% 11%; /* dark slate surface (#111827) */
+        --foreground: 210 40% 98%; /* soft white text (#F9FAFB) */
 
-        --card: 0 0% 3.9%;
-        --card-foreground: 0 0% 98%;
-        --popover: 0 0% 3.9%;
-        --popover-foreground: 0 0% 98%;
+        --card: 222 47% 11%; /* align cards with surface */
+        --card-foreground: 210 40% 98%;
+        --popover: 222 47% 11%;
+        --popover-foreground: 210 40% 98%;
 
-        --primary: 140 100% 47%;
-        --primary-foreground: 0 0% 13%;
-        --secondary: 193 100% 47%;
-        --secondary-foreground: 0 0% 13%;
-        --muted: 0 0% 14.9%;
-        --muted-foreground: 0 0% 71%;
-        --accent: 0 0% 14.9%;
-        --accent-foreground: 0 0% 98%;
-        --destructive: 0 62.8% 30.6%;
-        --destructive-foreground: 0 0% 98%;
-        --border: 0 0% 24%;
-        --input: 0 0% 14.9%;
-        --ring: 0 0% 83.1%;
-        --chart-1: 220 70% 50%;
-        --chart-2: 160 60% 45%;
-        --chart-3: 30 80% 55%;
-        --chart-4: 280 65% 60%;
-        --chart-5: 340 75% 55%;
+        --primary: 270 91% 65%; /* orchid / plum (#A855F7) */
+        --primary-foreground: 210 40% 98%;
+
+        --secondary: 47 97% 64%; /* rich gold (#FACC15) */
+        --secondary-foreground: 26 83% 14%; /* dark warm text on gold */
+
+        --muted: 222 47% 11%; /* subtle dark blocks */
+        --muted-foreground: 220 9% 61%; /* cool gray text (#9CA3AF) */
+
+        --accent: 326 84% 86%; /* soft blush accent (#F9A8D4) */
+        --accent-foreground: 325 24% 20%; /* deep plum text on blush */
+
+        --destructive: 0 84% 60%; /* vivid red */
+        --destructive-foreground: 210 40% 98%;
+
+        --border: 222 32% 20%; /* subtle slate border */
+        --input: 222 32% 20%;
+        --ring: 270 91% 65%; /* match primary for focus ring */
+
+        /* Charts tuned to the same family */
+        --chart-1: 270 91% 65%; /* primary plum */
+        --chart-2: 47 97% 64%; /* gold */
+        --chart-3: 326 84% 86%; /* blush */
+        --chart-4: 200 95% 72%; /* bright sky for contrast */
+        --chart-5: 160 84% 39%; /* emerald for positive states */
     }
 }
 

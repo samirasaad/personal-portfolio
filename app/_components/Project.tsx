@@ -125,30 +125,50 @@ const Project = ({ index, project, selectedProject, onMouseEnter }: Props) => {
                     _{(index + 1).toString().padStart(2, '0')}.
                 </div>
                 <div className="">
-                    <h4 className="text-4xl xs:text-6xl flex gap-4 font-anton transition-all duration-700 bg-gradient-to-r from-primary to-foreground from-[50%] to-[50%] bg-[length:200%] bg-right bg-clip-text text-transparent group-hover:bg-left">
-                        {project.title}
-                        <span className="text-foreground opacity-0 group-hover:opacity-100 transition-all">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="36"
-                                height="36"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                stroke="currentColor"
-                                strokeWidth="2"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                ref={externalLinkSVGRef}
+                    <div className="flex flex-wrap items-center gap-3">
+                        <h4 className="text-4xl xs:text-6xl flex gap-4 font-anton transition-all duration-700 bg-gradient-to-r from-primary to-foreground from-[50%] to-[50%] bg-[length:200%] bg-right bg-clip-text text-transparent group-hover:bg-left">
+                            {project.title}
+                            <span className="text-foreground opacity-0 group-hover:opacity-100 transition-all">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="36"
+                                    height="36"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    strokeWidth="2"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    ref={externalLinkSVGRef}
+                                >
+                                    <path
+                                        id="box"
+                                        d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                                    ></path>
+                                    <path id="arrow-line" d="M10 14 21 3"></path>
+                                    <path id="arrow-curb" d="M15 3h6v6"></path>
+                                </svg>
+                            </span>
+                        </h4>
+                        {project.liveUrl && (
+                            <button
+                                type="button"
+                                onClick={(e) => {
+                                    e.stopPropagation();
+                                    if (typeof window !== 'undefined') {
+                                        window.open(
+                                            project.liveUrl,
+                                            '_blank',
+                                            'noopener,noreferrer',
+                                        );
+                                    }
+                                }}
+                                className="inline-flex items-center gap-1 rounded-full border border-border/60 bg-background/80 px-3 py-1 text-xs uppercase tracking-[0.2em] text-muted-foreground hover:border-primary/70 hover:text-primary-foreground hover:bg-primary/90 transition-colors"
                             >
-                                <path
-                                    id="box"
-                                    d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
-                                ></path>
-                                <path id="arrow-line" d="M10 14 21 3"></path>
-                                <path id="arrow-curb" d="M15 3h6v6"></path>
-                            </svg>
-                        </span>
-                    </h4>
+                                <span>Live</span>
+                            </button>
+                        )}
+                    </div>
                     <div className="mt-2 flex flex-wrap gap-3 text-muted-foreground text-xs">
                         {project.techStack
                             .slice(0, 3)

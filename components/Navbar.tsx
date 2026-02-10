@@ -6,10 +6,10 @@ import { useRouter } from 'next/navigation';
 import { GENERAL_INFO, SOCIAL_LINKS } from '@/lib/data';
 
 const COLORS = [
-    'bg-yellow-500 text-black',
-    'bg-blue-500 text-white',
-    'bg-teal-500 text-black',
-    'bg-indigo-500 text-white',
+    'bg-primary text-primary-foreground',
+    'bg-secondary text-secondary-foreground',
+    'bg-accent text-accent-foreground',
+    'bg-muted text-foreground',
 ];
 
 const MENU_LINKS = [
@@ -148,9 +148,15 @@ const Navbar = () => {
 
                 <div className="w-full max-w-[300px] mx-8 sm:mx-auto">
                     <p className="text-muted-foreground mb-4">GET IN TOUCH</p>
-                    <a href={`mailto:${GENERAL_INFO.email}`}>
+                    <p className="text-lg capitalize hover:underline" 
+                    >
                         {GENERAL_INFO.email}
-                    </a>
+                    </p>
+                    <p className="text-lg capitalize hover:underline" 
+                    
+                    >
+                        {GENERAL_INFO.phone}
+                    </p>
                 </div>
             </div>
         </>
