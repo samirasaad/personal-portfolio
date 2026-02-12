@@ -250,6 +250,8 @@ export const PROJECTS: IProject[] = [
             '/projects/images/blog1.png',
             '/projects/images/blog2.png',
             '/projects/images/blog3.png',
+            '/projects/images/blog4.png',
+            '/projects/images/blog5.png',
         ],
     },
 ];
